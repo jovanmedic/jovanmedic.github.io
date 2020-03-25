@@ -1,0 +1,104 @@
+body{
+
+	background-color: white;
+	margin: 8px;
+}
+header{
+	background-color:  rgb(12, 124, 124);
+	
+}
+.navbar{
+	background-color:rgb(24, 29, 29);
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	
+}
+.navbar a {
+	text-decoration: none;
+	font-size: 2rem;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: white;
+	padding: 1rem;
+	margin-right: 1rem;
+}
+.navbar ul{
+	list-style-type: none;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding-top: 5rem;
+
+}
+.navbar h1{
+	font-size: 5rem;
+	font-weight: bold;
+	font-family: 'Lobster Two', cursive;
+	padding-left: 5rem;
+	color: wheat;
+	border-bottom: 2px solid wheat;
+
+}
+.parallax h2{
+	font-size: 5rem;
+	font-family: Georgia, 'Times New Roman', Times, serif
+	;
+	padding-left: 3rem;
+	padding-top: 2rem;
+	
+	display: block;}
+
+	
+	.parallax{
+		background-image: url(../img/pier-407252_1920.jpg);
+		height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-family: 'Cinzel', serif;
+    padding-top: 100px;
+	padding-left: 40px;
+	
+	}
+	.parallax2{
+		background-image: url(../img/frozen-201495_1920.jpg);
+		height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-family: 'Cinzel', serif;
+    padding-top: 100px;
+	padding-left: 40px;
+	overflow: hidden;
+	text-overflow: clip;
+	}
+	footer p{
+		text-align: center;
+		font-weight: bold;
+		
+	}
+	body{
+		background-color:rgb(24, 29, 29);
+	}
+	#caca{
+		color: wheat;
+
+	}
+	p{
+		color:white ; 
+	}
+	.parallax2 h2{
+		font-size: 3.2rem;
+		font-weight: bold;
+		font-family: 'Fugaz One', cursive;
+		overflow: hidden;
+		padding-left: 2rem;
+	}
+ 
+	
+
+
+
+
