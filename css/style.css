@@ -232,6 +232,7 @@ header{
 	  padding: 10px;
 	  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	  text-align: justify;
+	  font-weight: bolder;
 	  
 
   }
@@ -242,6 +243,7 @@ header{
 	  background-color: rgb(196, 184, 184);
 	  margin-left: 10px;
 	  border-bottom: 1px solid black;
+	  padding-left: 10px;
 	  
   }
   textarea{
