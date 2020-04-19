@@ -54,7 +54,7 @@ a:hover{
     background-image: url(/img/background-balance-business-commerce-583846.jpg);
     height: 500px;
 	
-	background-attachment: fixed;
+	
 	background-position: center;
 	background-repeat: no-repeat;
     background-size: 100% auto;
@@ -176,10 +176,7 @@ justify-content: flex-end;
     
 
 }
-img{
-    width: 14vw;
-    
-}
+
 
 
 
