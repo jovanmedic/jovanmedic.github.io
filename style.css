@@ -155,6 +155,7 @@ justify-content: flex-end;
     flex: 30%;
     justify-content: flex-end;
     padding-left:6em;
+    padding-top: 2em;
     
     
     
@@ -174,16 +175,11 @@ justify-content: flex-end;
     
 
 }
-@media (max-width=640px;) {
+@media (max-width:640px) {
     .wrapper{
         width: 100%;
     }
-    .parallax_img{
-        width: 100%;
-    }
-    #about{
-        width: 100%;
-    }
+    
 }
 
 
