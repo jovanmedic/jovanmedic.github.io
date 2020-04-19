@@ -52,10 +52,11 @@ a:hover{
 }
 .parallax_img{
     background-image: url(/img/background-balance-business-commerce-583846.jpg);
-    
+    width: 100%;
+    height: 800px;
 	
 	
-	background-position: center;
+	
 	background-repeat: no-repeat;
     background-size: 100% auto;
     display: flex;
@@ -63,10 +64,7 @@ a:hover{
     
     
 }
-@media screen and (max-width: 768px) {
-	.parallax_img {
-		background-attachment: inherit;
-	}
+
 
   
   
@@ -74,7 +72,7 @@ a:hover{
   
 
 
-}
+
 .contenthome{
     display: flex;
     flex-flow: column nowrap;
@@ -175,6 +173,11 @@ justify-content: flex-end;
     
     
 
+}
+@media (max-width=640px;) {
+    .wrapper{
+        width: 100%;
+    }
 }
 
 
