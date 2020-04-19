@@ -163,44 +163,6 @@ justify-content: center;
     .wrapper{
         width: 100%;
     }
-    .navbar{
-        width: 100%;
-    }
-    .navbar h1{
-        width: 40%;
-        font-size: 8vw;
-    }
-    .navbar ul{
-        width: 60%;
-    }
-    #home{
-        width: 100%;
-
-    }
-    .contenthome h1{
-        width: 100%;
-        font-size: 13vw;
-    }
-    #about{
-        width: 100%;
-    }
-    .data li{
-        font-size: 6vw;
-    }
-    .data{
-        width: 60%;
-    }
-    .skills{
-        width: 40%;
-
-    }
-    .gridcont{
-        width: 40%;
-    }
-    .img{
-        width: 100%;
-    }
-    
-
+   
 
 }
