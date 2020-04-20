@@ -7,7 +7,7 @@
 body{
 
     background-color: black;
-    
+    padding-top: 50px;
 }
 .wrapper{
     display: flex;
@@ -84,7 +84,7 @@ a:hover{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    flex-grow: 1;
+    
     
 
     
@@ -104,7 +104,7 @@ font-family: 'Oleo Script', cursive;;
 padding: 0 0 0 35px;
 margin: 0;
 
-justify-content: flex-end;
+
 
 
 
