@@ -5,9 +5,9 @@
     font-size: calc(1em+1vw);
 }
 body{
-    padding-top: 30px;
+
     background-color: black;
-    
+    padding-top: 50px;
 }
 .wrapper{
     display: flex;
@@ -57,7 +57,7 @@ a:hover{
 .parallax_img{
     background-image: url(/img/background-balance-business-commerce-583846.jpg);
     width: 100%;
-    height: 800px;
+    
     
     
     
