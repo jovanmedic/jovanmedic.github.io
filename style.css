@@ -1,233 +1,110 @@
 *{
     box-sizing: border-box;
-}html{
-    scroll-behavior: smooth;
-    font-size: calc(1em+1vw);
 }
 body{
-
-    background-color: black;
-    padding-top: 50px;
+    background-image: url(/img/postavljanje-etisona-04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .wrapper{
-    display: flex;
-    flex-flow: row wrap;
-    flex-grow: 1;
-    width: 100%;
     margin: 0 auto;
-    flex:1;
+    width:100% ;
+    height: 100%;
+   
+    display: flex;
+    flex-flow: column wrap;
+   
+    
+}
+header{
+    align-self: center;
+
+}
+header h1{
+    font-size: 3.5em;
+    font-weight: 900;
+    margin: 10px;
+    text-decoration: underline;
+    color: rgb(218, 161, 5);
+    font-family: 'Pacifico', cursive;
 }
 .navbar{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-evenly;
-background-color: black;
-position: fixed;
-top: 0;
-width: 100%;
-overflow: hidden;
-z-index: 1;
-
+    border-bottom: 1px solid black;
+    
 }
-ul{
-    display: inline-block;
+@media all and (max-width: 600px) {
+    .navbar{
+        flex-wrap: wrap;
+    }
+    .navbar > li{
+        flex: 1 1 50%;
+    }
     
-    
-    
+        
+   
+    }
 
-
-}
-li{
+.navbar li{
     list-style-type: none;
-    display: inline;
-
 }
 .navbar a{
     text-decoration: none;
-    font-size: 2vw;
-    padding: 20px 20px 2px 20px;
-    color: rgb(252, 245, 245);
-    margin: 0 auto;
-
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(12, 6, 6);
 }
-a:hover{
-    font-weight: bold;
-    font-style: oblique;
-}
-.parallax_img{
-    background-image: url(/img/background-balance-business-commerce-583846.jpg);
-    width: 100%;
-    
-    
-    
-    
-	
-	
-	
-	background-repeat: no-repeat;
-    background-size:cover;
-    display: flex;
-    justify-content: center;
-    
-    
-}
-
-
-  
-  
-  
-  
-
-
-
-.contenthome{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    
-    
-
-    
-    
-    
-    
-    
-    
-}
-.contenthome h1{
-font-size: 90px;
-font-weight: bold;
-color: rgb(7, 7, 7);
-text-decoration:underline;
--webkit-animation: fadein 2s;
-font-family: 'Oleo Script', cursive;;
-padding: 0 0 0 35px;
-margin: 0;
-
-
-
-
-
-
-}
-@media all and (max-width: 800px) {
-    .contenthome h1{
-        font-size: 50px;
-    }
-  
-   
-    
-}
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-.navbar h1{
-    font-family:'Bungee Shade', cursive;
-    font-size: 3vw;
+.navbar a:hover{
     font-weight: bolder;
-
-    margin: 0px 2px 0 2px;
-    color: rgb(236, 92, 9);
-    
-    padding-left: 28px;
 }
-#about > div{
-    flex: 1;
-}
-#about{
-    background-color:#0b0b16;
-    
+footer{
+    background-color: gray;
     width: 100%;
-    
-    
-  margin-top: 20px;
-  display: flex;
-  flex-flow: row  nowrap;
-  justify-content: space-evenly;
-
-}
-.text{
-    flex: 60%;
-    
-    display:flex;
-    flex-flow:column nowrap;
-    
-    
-    
-    
-
-
-}
-.data{
-    display: flex;
-    flex-flow: column nowrap;
-    align-self: flex-end;
-}
-
-.text li{
-    
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-bottom: white 2px solid;
-    font-size: 60px;
-    letter-spacing: 2px;
-    line-height: 200px;
-    
-    
-    
-    
-   
-}
-
-@media all and (max-width: 800px) {
-    .data li{
-        font-size: 20px;
-        line-height: 80px;
-    }
-}
-
-
-.skills{
-    flex: 30%;
-    
-   
-    
-    flex-flow: column wrap;
-    
-    
-    
-    
- 
-}
-
-
-.skills h1{
-    color: white;
-    font-size: 50px;
     text-align: center;
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    flex: 1;
     
     
-    
-
 }
-img{
-    width: 200px;
+footer p{
+    font-size: 1.2rem;
+    color: rgb(10, 9, 9);
+    margin: 0;
+    
 }
-.imgs{
-    flex-flow: row wrap;
+.main{
+   flex: 1;
+    
+    margin-top: 60px;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+.tekst{
+    flex: 50%;
+    margin: 10px;
+}
+.tekst h1{
+    font-size: 7vh;
+
+}
+.tekst h2{
+    font-size: 6vh;
+    border-bottom: 1px solid black;
+    
+    
+}
+.obloge{
+    
+    flex: 40%;
+    justify-content: right;
+    margin: 10px;
     
 }
 
-
-
-   
-
+.obloge li{
+    font-size: 6vh;
+    
+}
