@@ -1,111 +1,153 @@
-*{
-    box-sizing: border-box;
-}
+
 body{
-    background-image: url(/img/postavljanje-etisona-04.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.wrapper{
-    margin: 0 auto;
-    width:100% ;
-    height: 100%;
-   
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-flow: column wrap;
-   
-    
+    justify-content: stretch;
+    align-items: center;
 }
-header{
-    align-self: center;
 
-}
-header h1{
-    font-size: 3.5em;
-    font-weight: 900;
-    margin: 10px;
-    text-decoration: underline;
-    color: rgb(218, 161, 5);
-    font-family: 'Pacifico', cursive;
-}
-.navbar{
+
+#navbar{
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
-    border-bottom: 1px solid black;
+    justify-content: flex-end;
+    z-index: 99;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    background-color:rgb(190, 49, 68);
     
 }
-@media all and (max-width: 600px) {
-    .navbar{
-        flex-wrap: wrap;
-    }
-    .navbar > li{
-        flex: 1 1 50%;
-    }   
+#navbar ul{
+    display: flex;
+    padding-right: 10px;
     
-    
-        
-   
-    }
-
-.navbar li{
+}
+#navbar li{
     list-style-type: none;
+
 }
-.navbar a{
+#navbar a{
+    color: white;
+    font-size: 25px;
     text-decoration: none;
-    font-size: 2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(12, 6, 6);
+    padding:25px;
+    
 }
-.navbar a:hover{
-    font-weight: bolder;
+#navbar a:hover{
+    background-color: teal;
 }
-footer{
-    border-top: 1px solid black;
-    width: 100%;
+#welcome-section{
+    display: flex;
+    flex-flow: column ;
+    justify-content:center;
+    align-items: center;
+    font-size: 50px;
+    height: 100vh;
+    background-color: rgb(27, 26, 26);
+    width: 100vw;
+
+}
+#welcome-section h1{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+#welcome-section h2{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-top: 0;
+    
+}
+#projects h1{
+    font-size: 40px;
+    padding-bottom: 25px;
+    
+    color: white;
+}
+#projects{
     text-align: center;
-    flex: 1;
-    
-    
+    width: 100vw;
+    background-color: rgb(69, 86, 125);
 }
-footer p{
-    font-size: 1.2rem;
-    color: rgb(10, 9, 9);
-    margin: 0;
-    
-}
-.main{
-   flex: 1;
-    
-    margin-top: 60px;
+img{width: 470px;
+height: 400px;}
+.projects{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    
+    justify-content: center;
+   
 }
-.tekst{
-    flex: 50%;
+.project-tile{
     margin: 10px;
-}
-.tekst h1{
-    font-size: 7vh;
-
-}
-.tekst h2{
-    font-size: 6vh;
-    border-bottom: 1px solid black;
+    background-color: rgb(90, 74, 74);
     
-    
-}
-.obloge{
-    
-    flex: 40%;
-    justify-content: right;
-    margin: 10px;
+   
     
 }
 
-.obloge li{
-    font-size: 6vh;
+p{color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.project-tile a{
+    text-decoration: none;
     
+}
+.project-tile a:hover{
+    background-color: dimgrey;
+    opacity: 0.7;
+    
+}
+#contact{
+    display: flex;
+    flex-flow: column ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 56, 65);
+    width: 100vw;
+    height: 90vh;
+    border-bottom: 3px solid rgb(190, 49, 68); 
+
+}
+#contact h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0;
+}
+#contact h2{font-size: 30px;
+color: white;
+margin-top: 0;}
+#contact ul{
+    display: flex;
+    flex-flow: row wrap;
+    
+   
+    
+    
+}
+#contact li{
+    list-style-type: none;
+}
+#contact a{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    text-decoration: none;
+}
+footer{
+    background-color:rgb(48, 56, 65); ;
+    width: 100vw;
+    text-align: center;
+   
+}
+@media (max-width:460px) {
+img{width:400px;}
+.project-tile{width: 400px;
+}
 }
