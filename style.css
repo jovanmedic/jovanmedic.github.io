@@ -1,4 +1,8 @@
 
+*{
+    box-sizing: border-box;
+    
+}
 body{
     padding: 0;
     margin: 0;
@@ -11,7 +15,7 @@ body{
 
 #navbar{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: flex-end;
     z-index: 99;
     width: 100vw;
@@ -27,11 +31,12 @@ body{
 }
 #navbar li{
     list-style-type: none;
+    
 
 }
 #navbar a{
     color: white;
-    font-size: 25px;
+    font-size: 1.5rem;
     text-decoration: none;
     padding:25px;
     
@@ -106,7 +111,7 @@ p{color: white;
 }
 #contact{
     display: flex;
-    flex-flow: column ;
+    flex-flow: column wrap ;
     justify-content: center;
     align-items: center;
     background-color: rgb(48, 56, 65);
@@ -119,6 +124,7 @@ p{color: white;
     font-size: 50px;
     color: white;
     margin-bottom: 0;
+   justify-self: center;
 }
 #contact h2{font-size: 30px;
 color: white;
@@ -126,6 +132,8 @@ margin-top: 0;}
 #contact ul{
     display: flex;
     flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
     
    
     
@@ -147,7 +155,24 @@ footer{
    
 }
 @media (max-width:460px) {
-img{width:400px;}
-.project-tile{width: 400px;
+img{width:250px;
+height: 250px;}
+.project-tile{width: 250px;
+}
+#navbar a{
+    font-size: 1.2rem;
+}
+#projects h1{
+    font-size: 1.6rem;
+
+}
+#contact h1{
+    font-size: 2.5rem;
+}
+#contact h2{
+    font-size: 1.5rem;
+}
+#contact a{
+    font-size: 2.5rem;
 }
 }
