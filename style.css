@@ -10,6 +10,10 @@ body{
     flex-flow: column wrap;
     justify-content: stretch;
     align-items: center;
+    background:linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#2305A8);
+    width: 100vw;
+    background-size: 400% 400%;
+    animation: change 10s ease-in-out infinite;
 }
 
 
@@ -21,7 +25,7 @@ body{
     width: 100vw;
     top: 0;
     position: fixed;
-    background-color:rgb(190, 49, 68);
+    background-color:rgba(62, 58, 93, 0.89);
     
 }
 #navbar ul{
@@ -42,7 +46,8 @@ body{
     
 }
 #navbar a:hover{
-    background-color: teal;
+    font-weight: bold;
+    color: rgb(58, 156, 156);
 }
 #welcome-section{
     display: flex;
@@ -51,8 +56,22 @@ body{
     align-items: center;
     font-size: 50px;
     height: 100vh;
-    background-color: rgb(27, 26, 26);
+    color: #fff;
+   /* background:linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#2305A8);*/
     width: 100vw;
+    background-size: 400% 400%;
+    animation: change 10s ease-in-out infinite;
+
+}
+@keyframes change {
+0%{background-position: 0 50%;}
+
+50%{background-position: 100% 50%;}
+100%{background-position: 0;}
+
+
+
+
 
 }
 #welcome-section h1{
@@ -74,9 +93,10 @@ body{
     color: white;
 }
 #projects{
+    border-top: 2px solid white;
     text-align: center;
     width: 100vw;
-    background-color: rgb(69, 86, 125);
+   /* background-color: rgb(69, 86, 125);*/
 }
 img{width: 470px;
 height: 400px;}
@@ -88,7 +108,8 @@ height: 400px;}
 }
 .project-tile{
     margin: 10px;
-    background-color: rgb(90, 74, 74);
+    background-color: rgba(90, 74, 74, 0.534);
+    
     
    
     
@@ -110,11 +131,12 @@ p{color: white;
     
 }
 #contact{
+    border-top: 2px solid white;
     display: flex;
     flex-flow: column wrap ;
     justify-content: center;
     align-items: center;
-    background-color: rgb(48, 56, 65);
+   /* background-color: rgb(48, 56, 65);*/
     width: 100vw;
     height: 90vh;
     border-bottom: 3px solid rgb(190, 49, 68); 
@@ -154,7 +176,7 @@ footer{
     text-align: center;
    
 }
-@media (max-width:360px) {
+@media (max-width:768px) {
 img{width:280px;
 height: 250px;}
 .project-tile{width: 280px;
@@ -167,13 +189,13 @@ height: 250px;}
 
 }
 #contact h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 #contact h2{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 #contact a{
-    font-size: 1.8rem;
+    font-size: 1rem;
    
 }
 #contact li{
