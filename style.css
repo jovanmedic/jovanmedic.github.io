@@ -156,9 +156,10 @@ footer{
    
 }
 @media (max-width:360px) {
-img{width:100%;
+img{width:90vw;
 height: 170px;}
-.project-tile{width:100vh;}
+.project-tile{width:90vw;
+flex:1;}
 }
 #navbar a{
     font-size: 0.8rem;
