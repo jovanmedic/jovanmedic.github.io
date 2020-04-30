@@ -111,12 +111,12 @@ p{color: white;
 }
 #contact{
     display: flex;
-    flex-flow: column wrap ;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(48, 56, 65);
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     border-bottom: 3px solid rgb(190, 49, 68); 
 
 }
