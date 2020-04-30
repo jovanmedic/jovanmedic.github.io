@@ -36,7 +36,7 @@ body{
 }
 #navbar a{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-decoration: none;
     padding:25px;
     
@@ -132,8 +132,7 @@ margin-top: 0;}
 #contact ul{
     display: flex;
     flex-flow: row wrap;
-    align-content: center;
-    align-items: center;
+    
     
    
     
@@ -160,17 +159,17 @@ height: 250px;}
 .project-tile{width: 280px;
 }
 #navbar a{
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 #projects h1{
     font-size: 1.6rem;
 
 }
 #contact h1{
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 #contact h2{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 #contact a{
     font-size: 1.8rem;
