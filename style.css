@@ -166,10 +166,10 @@ height: 250px;}
 
 }
 #contact h1{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 }
 #contact h2{
-    font-size: 1rem;
+    font-size: 0.7rem
 }
 #contact a{
     font-size: 1.1rem;
@@ -180,4 +180,5 @@ height: 250px;}
 #welcome-section h1{
     font-size: 3.2rem;
 }
+
 }
