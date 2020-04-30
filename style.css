@@ -159,7 +159,8 @@ footer{
 #projects{ display:flex;
 flex-flow:column wrap;
 Justify-content:center;
-Align-content:center;
+Align-content:center;}
+
 #navbar a{
     font-size: 0.8rem;
 }
