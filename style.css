@@ -10,6 +10,7 @@ body{
     flex-flow: column wrap;
     justify-content: stretch;
     align-items: center;
+    overflow:hidden;
 }
 
 
@@ -76,6 +77,7 @@ body{
 #projects{
     text-align: center;
     width: 100vw;
+    
     background-color: rgb(69, 86, 125);
 }
 img{width: 470px;
@@ -154,9 +156,9 @@ footer{
    
 }
 @media (max-width:360px) {
-img{width:250px;
-height: 250px;}
-.project-tile{width: 250px;}
+img{width:170px;
+height: 170px;}
+.project-tile{width: 170px;}
 }
 #navbar a{
     font-size: 0.8rem;
@@ -166,13 +168,13 @@ height: 250px;}
 
 }
 #contact h1{
-    font-size: 1.3rem;
+    font-size: 1.9rem;
 }
 #contact h2{
-    font-size: 0.7rem
+    font-size:1.3rem;
 }
 #contact a{
-    font-size: 0.7rem;}
+    font-size: 1rem;}
 #navbar a:hover{font-weight:bold;}
    
 
