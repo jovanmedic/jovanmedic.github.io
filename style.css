@@ -241,6 +241,7 @@ iframe{
     }
     .tekst p{
         width: 90vw;
+        font-size: 15px;
     }
     .kosmo h1{font-size: 30px;}
     .kosmo p{
